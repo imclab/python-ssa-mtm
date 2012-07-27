@@ -8,7 +8,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.tiddlyspot.com/
 # created:  16-Jul-2012
-# modified: Mon 23 Jul 2012 01:13:56 PM BRT
+# modified: Fri 27 Jul 2012 05:32:29 PM BRT
 #
 # obs:  Least-squares spectral analysis
 # http://en.wikipedia.org/wiki/Least-squares_spectral_analysis
@@ -32,7 +32,10 @@ $$ \tan(4\pi\tau) = \frac{\sum\sin (4\pi f t_k)}{\sum\cos(4\pi f t_k)} $$,
 Then the Lomb-Scargle periodogram estimate of the spectral power $P(f)$ at
 frequency $f$ is given by:
 
-$$ P(f) = \frac{1}{2\sigma^2}\left\{\frac{\left[ \sum_k(y_k - \bar{y})\cos 2\pi f(t_k-\tau) \right]^2}{\sum_k\cos^2 2\pi f(t_k-\tau)}  + \frac{\left[ \sum_k(y_k - \bar{y})\sin 2\pi f(t_k-\tau) \right]^2}{\sum_k\sin^2 2\pi f(t_k-\tau)}\right\}$$,
+$$ P(f) = \frac{1}{2\sigma^2}\left\{\frac{\left[ \sum_k(y_k -
+\bar{y})\cos 2\pi f(t_k-\tau) \right]^2}{\sum_k\cos^2 2\pi f(t_k-\tau)} +
+\frac{\left[ \sum_k(y_k - \bar{y})\sin 2\pi f(t_k-\tau) \right]^2}
+{\sum_k\sin^2 2\pi f(t_k-\tau)}\right\}$$,
 
 This equation is less imposing than it looks.  It has two terms, one for the
 cosine transform, the other for the sine transform.  Each term is normalized

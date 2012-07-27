@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # mssa.py
 #
@@ -6,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.tiddlyspot.com/
 # created:  12-Jul-2012
-# modified: Mon 23 Jul 2012 01:15:25 PM BRT
+# modified: Fri 27 Jul 2012 05:32:36 PM BRT
 #
 # obs: 2. Multivariate Singular Spectral Analysis
 #
